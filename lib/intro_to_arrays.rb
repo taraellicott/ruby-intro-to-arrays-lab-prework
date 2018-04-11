@@ -18,12 +18,12 @@ def last_element(array)
   array[-1]
 end
 
-def first_element_with_array_methods(array, element)
-  array.push(element)
+def first_element_with_array_methods(array)
+  array.push()
 end
 
-def last_element_with_array_methods(array, element)
-  array.pop(element)
+def last_element_with_array_methods(array)
+  array.pop()
 end
 
 def length_of_array(array)
