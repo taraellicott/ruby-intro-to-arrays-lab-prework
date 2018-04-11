@@ -19,7 +19,7 @@ def last_element(array)
 end
 
 def first_element_with_array_methods(array)
-  array.unshift()
+  array.shift()
 end
 
 def last_element_with_array_methods(array)
@@ -27,5 +27,6 @@ def last_element_with_array_methods(array)
 end
 
 def length_of_array(array)
+  array.length
 end
 
